@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    header {
+       h1{
+            color:#805537;
+            margin-top: 8%;
+            font-size: 60px;
+            width: 30%;
+            word-spacing: 15px;
+            margin-left: 20px;
+        }
+    }
+
+    main {
+        margin-top: 8%;
+         .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            
+            
+            .text{
+                
+                width: 45%;
+                font-size: 25px;
+                color: #58351e;
+                line-height: 50px;
+                margin-top: -15%;
+                
+            }
+            
+            div img {
+                width: 60%;
+            }
+
+            
+
+            
+
+        }
+
+    }
+
+    hr{
+        margin-top: 10%;
+    }
+
+    footer {
+        p {
+           text-align: center;
+           letter-spacing: 8px;
+           color: #58351e;
+           font-size: 20px;
+        }
+    }
+    
+}
